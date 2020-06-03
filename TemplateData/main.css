@@ -1,0 +1,19 @@
+body,html{margin:0;padding:0}
+html{height:100%;background-color:#333}
+body{margin:0;border:0;padding:0;height:100%;overflow:hidden;width:100%;-webkit-tap-highlight-color:transparent}
+#capture{background:0 0!important;display:block;position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;margin:0}
+#gameContainer canvas{width:100%;height:100%}
+#gameContainer{background:0 0!important;display:block;position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;margin:0}
+canvas:focus{outline:0}
+.loadScreen{background-color:#ffffff;height:100%;margin:0;z-index:1000}
+.loadScreen *{position:relative}
+.logo{top:35%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:3.5vh}
+.progress{top:42%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);max-width:40vh;height:1.1vh}
+.progress .empty{float:right;background-color:#002E6E;height:100%;width:100%;display:inline-block}
+.progress .full{height:100%;width:100%;display:inline-block;float:left;background-color:#b10f15}
+.progress .downloadInfo{position:absolute;font-size:.85vh;text-align:center;width:100%;color:#ffffff}
+.info{top:45%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:1.1vh;max-width:40vh}
+.waitInfo{top:50%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:3.5vh;display:none}
+.horizontal{display:block;width:100%;height:auto;left:50%;transform:translate(-50%,0)}
+.vertical{display:block;width:auto;height:100%;left:50%;transform:translate(-50%,0)}
+/* .progress .empty{width:50%}.progress .full{width:50%} */
