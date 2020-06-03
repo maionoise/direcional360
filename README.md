@@ -1,17 +1,17 @@
 Reserva Girassol: 
-* https://maionoise.github.io/direcional360/?s=reservagirassol
+* http://direcional360.maionoi.se/?s=reservagirassol
 
 Conquista da Lagoa:
-* https://maionoise.github.io/direcional360/?s=conquistalagoa
+* http://direcional360.maionoi.se/?s=conquistalagoa
 
 Conquista Esmeralda:
-* https://maionoise.github.io/direcional360/?s=conquistaesmeralda
+* http://direcional360.maionoi.se/?s=conquistaesmeralda
 
 Meet Residence:
-* https://maionoise.github.io/direcional360/?s=meetresidence
+* http://direcional360.maionoi.se/?s=meetresidence
 
 Reserva do Lago:
-* https://maionoise.github.io/direcional360/?s=reservadolago
+* http://direcional360.maionoi.se/?s=reservadolago
 
 Reserva das Flores:
-* https://maionoise.github.io/direcional360/?s=reservadasflores
+* http://direcional360.maionoi.se/?s=reservadasflores
