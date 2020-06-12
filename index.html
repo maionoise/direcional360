@@ -44,6 +44,22 @@
                     }]);
                 } else {
                     onsuccess();
+
+                    var url = window.location.search;
+                    var logoPartnerImg = document.getElementById('logo-partner');
+
+                    url = url.replace("?", '');
+
+                    if(url === 's=meetresidence'){
+                        // console.log(url);
+                        logoPartnerImg.src = "TemplateData/logo-spl.png";
+                    }
+
+                    if(url === 's=conquistalagoa'){
+                        console.log(url);
+                        // console.log(logoPartnerImg);
+                        logoPartnerImg.src = "TemplateData/logo-ecap.png";
+                    }
                 }
             },
             onProgress: UnityProgress,
@@ -59,6 +75,9 @@
     <div id="loadScreen" class="loadScreen">
         <div class="logo">
             <img class="vertical" width="235" height="32" src="TemplateData/progressLogo.png">
+        </div>
+        <div class="logo-partner">
+            <img width="196" id="logo-partner" height="99" src="">
         </div>
         <div id="progress" class="progress">
             <div id="empty" class="empty"></div>
